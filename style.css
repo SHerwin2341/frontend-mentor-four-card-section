@@ -1,0 +1,61 @@
+/* Global variables */
+:root {
+
+ /*Primary Colors*/
+ --color-red: hsl(0, 78%, 62%);
+ --color-cyan: hsl(180, 62%, 55%);
+ --color-orange: hsl(34, 97%, 64%);
+ --color-blue: hsl(212, 86%, 64%);
+
+ /*Netural Colors*/
+ --color-dark-grey: hsl(234, 12%, 34%);
+ --color-grey: hsl(212, 6%, 44%);
+ --color-white: hsl(0, 0%, 100%);
+
+ /*Typography*/
+
+ /* Font Families*/
+ --font-family-base: 'Poppins', sans-serif;
+
+ /* Font weights */
+  --font-weight-light: 200;   /* Extra Light */
+  --font-weight-regular: 400;
+  --font-weight-semibold: 600;
+
+  /* Typography presets */
+  --text-1-size: 36px;
+  --text-1-line-height: 120%;
+  --text-1-letter-spacing: 0.25px;
+  --text-1-weight: var(--font-weight-semibold);
+
+  --text-2-size: 36px;
+  --text-2-line-height: 140%;
+  --text-2-letter-spacing: 0.25px;
+  --text-2-weight: var(--font-weight-light);
+
+  --text-3-size: 20px;
+  --text-3-line-height: 135%;
+  --text-3-letter-spacing: 0px;
+  --text-3-weight: var(--font-weight-semibold);
+
+  --text-4-size: 15px;
+  --text-4-line-height: 140%;
+  --text-4-letter-spacing: 0px;
+  --text-4-weight: var(--font-weight-regular);
+
+  --text-5-size: 13px;
+  --text-5-line-height: 160%;
+  --text-5-letter-spacing: 0px;
+  --text-5-weight: var(--font-weight-regular);
+   
+  /*spacing*/
+  --space-100: 0.5rem;  /* 8px */
+  --space-200: 1rem;    /* 16px */
+  --space-300: 1.5rem;  /* 24px */
+  --space-400: 2rem;    /* 32px */
+  --space-500: 2.5rem;  /* 40px */
+
+  /* Radius + Shadow*/
+  --shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  --radius: var(--space-100);
+}
