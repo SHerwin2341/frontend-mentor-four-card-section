@@ -1,3 +1,10 @@
+/*Reset Base */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 /* Global variables */
 :root {
 
@@ -59,3 +66,36 @@
   --shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
   --radius: var(--space-100);
 }
+
+
+
+body {
+padding: var(--space-300);
+font-family: var(--font-family-base);
+}
+
+.intro {
+   text-align: center;
+  max-width: 28rem;
+  margin: 0 auto var(--space-500);
+}
+
+.features {
+  display: grid;
+  gap: var(--space-200);
+}
+
+.card {
+  background: var(--color-white, #fff);
+  border-radius: 0.5rem;
+  padding: 1.5rem;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.card img {
+  display: block;
+  margin-left: auto;
+  margin-right: 0;
+  margin-bottom: 1rem;
+}
+
